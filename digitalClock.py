@@ -11,7 +11,7 @@ root = tk.Tk()
 root.title("Simple Clock")
 
 # Create a label to display the time
-label = tk.Label(root, font=('calibri', 40, 'bold'), background='black', foreground='white')
+label = tk.Label(root, text="Yo Get Going", font=('calibri', 40, 'bold'), background='pink', foreground='blue')
 
 # Place the label in the center of the window
 label.pack(anchor='center')
